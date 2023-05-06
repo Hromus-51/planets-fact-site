@@ -1,0 +1,123 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+
+@font-face {
+  font-family: 'Spartan';
+  src: local('Spartan'),
+    url('./assets/fonts/Spartan-Regular.ttf') format('truetype');
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: 'Spartan';
+  src: local('Spartan'),
+    url('./assets/fonts/Spartan-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+:root {
+  /* Typography */
+  --family01-ss: 'Antonio', sans-serif;
+  --family02-ss: 'Spartan', sans-serif;
+
+  /* Font size - heading */
+  /* ANTONIO */
+  --fs-h1: 80px;
+  --lh-h1: 103px;
+
+  --fs-h2: 40px;
+  --lh-h2: 52px;
+  --ls-h2: -1.5px;
+
+  /* SPARTAN */
+  --fs-h3: 12px;
+  --lh-h3: 25px;
+  --ls-h3: 2.57px;
+
+  --fs-h4: 11px;
+  --lh-h4: 25px;
+  --ls-h4: 1px;
+
+  /* Font size - heading-tablet */
+  /* ANTONIO */
+  --fs-h1-t: 48px;
+  --lh-h1-t: 62px;
+
+  --fs-h2-t: 24px;
+  --lh-h2-t: 31px;
+  --ls-h2-t: -0.9px;
+
+  /* SPARTAN */
+  --fs-h3-t: 9px;
+  --lh-h3-t: 25px;
+  --ls-h3-t: 2px;
+
+  /* Font size - heading-mobile */
+  /* ANTONIO */
+  --fs-h1-m: 40px;
+  --lh-h1-m: 52px;
+
+  --fs-h2-m: 20px;
+  --lh-h2-m: 26px;
+  --ls-h2-m: -0.75px;
+
+  /* SPARTAN */
+  --fs-h3-m: 9px;
+  --lh-h3-m: 10px;
+  --ls-h3-m: 2px;
+
+  --fs-h4-m: 15px;
+  --lh-h4-m: 25px;
+  --ls-h4-m: 1.4px;
+
+  --fs-h5-m: 8px;
+  --lh-h5-m: 16px;
+  --ls-h5-m: 0.73px;
+
+  /* Font size - body */
+  --fs-bm: 14px;
+  --lh-bm: 25px;
+
+  --fs-bs: 12px;
+  --lh-bs: 25px;
+
+  /* Font size - body-mobile */
+  --fs-bm-m: 11px;
+  --lh-bm-m: 22px;
+
+  /* Font size - logo */
+  --fs-l: 28px;
+  --lh-l: 36px;
+  --ls-l: -1px;
+
+  /* Font weight */
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* Colors */
+  --font-l: #FFFFFF;
+  --font-m: rgba(255, 255, 255, 0.75);
+  --font-d: rgba(255, 255, 255, 0.5);
+  --line: rgba(255, 255, 255, 0.2);
+  --line-m: rgba(255, 255, 255, 0.1);
+  --menu: rgba(255, 255, 255, 0.25);
+  --bg: #070724;
+  --btn-h: rgba(216, 216, 216, 0.2);
+  --mercury: #419EBB;
+  --venus: #EDA249;
+  --earth: #6D2ED5;
+  --mars: #D14C32;
+  --jupiter: #D83A34;
+  --saturn: #CD5120;
+  --uranus: #1EC1A2;
+  --neptune: #2D68F0;
+  --none: transparent;
+}
+
+body {
+  font-family: var(--family02-ss);
+  font-weight: var(--fw-regular);
+  color: var(--font-l);
+
+  background: var(--bg) url('./assets/images/background-stars.svg');
+}
