@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site](https://hromus-51.github.io/Planets fact site/)
+- [Live Site](https://hromus-51.github.io/planets-fact-site/)
 
 ### Built with
 
